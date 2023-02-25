@@ -1,4 +1,4 @@
-package dev.mrad;
+package dev.mrad.level_2;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionLvl2_1 {
+public class Solution_1 {
 
     public static int solution(String n, int b) {
         Map<String, Integer> map = new HashMap<>();

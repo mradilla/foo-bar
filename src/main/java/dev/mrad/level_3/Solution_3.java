@@ -1,13 +1,13 @@
-package dev.mrad;
+package dev.mrad.level_3;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static dev.mrad.SolutionLvl3_3.Fraction.ONE;
-import static dev.mrad.SolutionLvl3_3.Fraction.ZERO;
+import static dev.mrad.level_3.Solution_3.Fraction.ONE;
+import static dev.mrad.level_3.Solution_3.Fraction.ZERO;
 
-public class SolutionLvl3_3 {
+public class Solution_3 {
     public static int[] solution(int[][] m) {
 
         Fraction[][] input = toFractionMatrix(m);

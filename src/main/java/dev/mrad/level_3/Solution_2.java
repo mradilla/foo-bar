@@ -1,11 +1,11 @@
-package dev.mrad;
+package dev.mrad.level_3;
 
 import java.math.BigInteger;
 
 import static java.math.BigInteger.ONE;
 import static java.math.BigInteger.ZERO;
 
-public class SolutionLvl3_2 {
+public class Solution_2 {
 
     public static int solution(String x) {
         BigInteger n = new BigInteger(x);

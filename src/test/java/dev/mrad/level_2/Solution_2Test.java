@@ -1,11 +1,10 @@
-package dev.mrad;
+package dev.mrad.level_2;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class SolutionLvl2_2Test {
+public class Solution_2Test {
 
     @ParameterizedTest
     @CsvSource({
@@ -27,7 +26,7 @@ public class SolutionLvl2_2Test {
             "24,0,3"
     })
     void solution(int src, int dest, int expected) {
-        Assertions.assertEquals(expected, SolutionLvl2_2.solution(src, dest));
+        Assertions.assertEquals(expected, Solution_2.solution(src, dest));
     }
 
 }

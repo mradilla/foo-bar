@@ -1,6 +1,6 @@
-package dev.mrad;
+package dev.mrad.level_3;
 
-public class SolutionLvl3_1 {
+public class Solution_1 {
 
     public static int solution(int start, int length) {
         int result = 0;

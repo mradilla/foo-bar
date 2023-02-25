@@ -1,10 +1,10 @@
-package dev.mrad;
+package dev.mrad.level_3;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-public class SolutionLvl3_2Test {
+public class Solution_2Test {
 
     @ParameterizedTest
     @CsvSource({
@@ -49,7 +49,7 @@ public class SolutionLvl3_2Test {
             "12311312313123123123123123123131231231231233432531314235443576576572345123113123131231231231231231231312312312312334325313142354435765765723451231131231312312312312312312313123123123123343253131423544357657657234512311312313123123123123123123131231231231233432531314235443576576572345,1230"
     })
     void solution2(String x, int expected) {
-        Assertions.assertEquals(expected, SolutionLvl3_2.solution(x));
+        Assertions.assertEquals(expected, Solution_2.solution(x));
     }
 
 

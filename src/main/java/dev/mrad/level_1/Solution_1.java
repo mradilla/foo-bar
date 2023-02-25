@@ -1,7 +1,7 @@
-package dev.mrad;
+package dev.mrad.level_1;
 // The cake is not a lie!
 // 02/2023
-public class SolutionLvl1 {
+public class Solution_1 {
     public static int solution(String x) {
         int minSequenceLength = Math.toIntExact(x.chars().distinct().count());
         if (x.length() == minSequenceLength) {

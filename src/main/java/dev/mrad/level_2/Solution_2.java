@@ -1,4 +1,4 @@
-package dev.mrad;
+package dev.mrad.level_2;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -7,7 +7,7 @@ import java.util.Set;
 import static java.lang.Math.abs;
 // Don't Get Volunteered!
 
-public class SolutionLvl2_2 {
+public class Solution_2 {
 
     public static final int BOARD_LENGTH = 8;
     public static final int KNIGHT_MOVES = 3;

@@ -1,11 +1,11 @@
-package dev.mrad.level_3;
+package foo.bar.level_3;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static dev.mrad.level_3.Solution_3.Fraction.ONE;
-import static dev.mrad.level_3.Solution_3.Fraction.ZERO;
+import static foo.bar.level_3.Solution_3.Fraction.ONE;
+import static foo.bar.level_3.Solution_3.Fraction.ZERO;
 
 public class Solution_3 {
     public static int[] solution(int[][] m) {

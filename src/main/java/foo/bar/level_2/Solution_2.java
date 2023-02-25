@@ -1,4 +1,4 @@
-package dev.mrad.level_2;
+package foo.bar.level_2;
 
 import java.util.HashSet;
 import java.util.LinkedList;

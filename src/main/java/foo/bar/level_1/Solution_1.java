@@ -1,4 +1,4 @@
-package dev.mrad.level_1;
+package foo.bar.level_1;
 // The cake is not a lie!
 // 02/2023
 public class Solution_1 {

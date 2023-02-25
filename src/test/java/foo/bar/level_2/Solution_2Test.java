@@ -1,4 +1,4 @@
-package dev.mrad.level_2;
+package foo.bar.level_2;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;

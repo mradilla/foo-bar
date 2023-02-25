@@ -1,4 +1,4 @@
-package dev.mrad.level_3;
+package foo.bar.level_3;
 
 public class Solution_1 {
 
